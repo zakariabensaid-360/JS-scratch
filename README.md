@@ -140,10 +140,5 @@ The real value of this project is not in matching the native implementation exac
 - test-driven development
 - foundational language mechanics
 
----
-
-If you'd like, I can also give you:
-- a more polished GitHub-style README
-- a README tailored for a beginner audience
 - a README with badges and sections for a real repo
 - a complete package.json and test setup for this project
