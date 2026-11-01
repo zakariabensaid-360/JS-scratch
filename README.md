@@ -64,23 +64,18 @@ const hasThree = some(numbers, (n) => n === 3);
 
 ```text
 JS-scratch/
-├── src/
 │   ├── array/
-│   │   ├── map.js
-│   │   ├── filter.js
-│   │   ├── reduce.js
-│   │   ├── some.js
-│   │   ├── every.js
-│   │   ├── find.js
-│   │   └── ...
-│   └── utils/
-│       └── helpers.js
+│      ├── map.js
+│      ├── filter.js
+│      ├── reduce.js
+│      ├── some.js
+│      ├── every.js
+│      ├── find.js
+│      └── ...    
 ├── tests/
 │   ├── array.test.js
 │   └── ...
 ├── README.md
-├── package.json
-└── .gitignore
 ```
 
 ## Implementation principles
@@ -104,29 +99,14 @@ This project should include unit tests for:
 - chaining and return behavior
 - incorrect or missing arguments
 
-Example test structure:
-
-```js
-import { map } from '../src/array/map.js';
-
-describe('map', () => {
-  test('doubles each number', () => {
-    expect(map([1, 2, 3], (n) => n * 2)).toEqual([2, 4, 6]);
-  });
-
-  test('works with empty arrays', () => {
-    expect(map([], (n) => n * 2)).toEqual([]);
-  });
-});
-```
 
 ## How to run locally
 
 ```bash
 git clone https://github.com/your-username/JS-scratch.git
 cd JS-scratch
-npm install
-npm test
+node ./array/builtinfuncion.js
+write your test code in exactly in the same file
 ```
 
 If you are not using a package manager yet, you can also just open the files directly in a browser or Node environment and test them manually.
